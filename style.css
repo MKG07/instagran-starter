@@ -52,7 +52,7 @@ body{
     border: 1px solid #b5b5b5;
 }
 
-nav{ 
+navbar{ 
     display: inline-block;
     background-color: white;
     height: 54px;
@@ -61,23 +61,52 @@ nav{
 }
 
 .logo{
-    height: 40px;
+     height: 40px;
     position: relative;
 } 
 
- /* .action {
-
-    height: 20px;
+.search-box {
+    height: 25px;
     position: relative;
-    width: 30%;
+    width: 30vw;
     margin-left: 35vw;
     margin-right: 35vw;
     background-color: #fafafa;
     text-align: center;
-    border: #b5b5b5 1px thick;
-    border-radius: 3px; 
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+}
 
+ actions {
+    height: 40px;
+    position: relative;
+    right: 0%;
+ }
 
+ .post{
+    border: 1px solid #b5b5b5 ;
+    border-radius: 2px;
+    height: 60vh;
 
-} */
+ }
 
+ .user img {
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 4px double #b5b5b5;
+    width: 56px;
+    height: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-image {
+    border: 1px solid #b5b5b5;
+    border-radius: 2px;
+    height: 60vh;
+    width: 560px;
+    margin-left: 119px;
+    margin-right: 119px;
+    margin-top: 10px;
+}
